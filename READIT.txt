@@ -1,0 +1,31 @@
+The two video files are taken as the input for detecting vehicles which is declared here as traffic and traffic2.
+
+The two python files are named as traffic_counter and traffic_counter2 which is used to detect the vehicles in the traffic 
+and display their count.
+
+Plot centroids and plot cntroids 2 are the two files which is used to establsih centroid on both the traffic and traffic2 
+video files
+
+How to execute the code ?
+
+First install the library pandas by using pip install pandas in the command window in windows.
+
+Then put all the files in the same folder
+
+open the command window from windows startup menu(press windows button)
+
+Place the folder in the desktop and write cd desktop in the command window to switch the directory to the desktop		
+
+Now write cd counters(your folder name) to switch to the project folder directory
+
+The execution command for the first python file is python ./traffic_counter.py
+
+A window generated shows the detection of vehicles and count of the vehicle keeps on increasing.
+
+A respective csv value and the detected video file is generated as traffic.csv and traffic_counter.avi
+
+The execution command for the second python file is python ./traffic_counter.py
+
+A window generated shows the detection of vehicles and count of the vehicle keeps on increasing.
+
+A respective csv value and the detected video file is generated as traffic2.csv and traffic_counter2.avi.
