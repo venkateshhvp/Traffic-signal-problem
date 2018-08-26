@@ -24,7 +24,7 @@ A window generated shows the detection of vehicles and count of the vehicle keep
 
 A respective csv value and the detected video file is generated as traffic.csv and traffic_counter.avi
 
-The execution command for the second python file is python ./traffic_counter.py
+The execution command for the second python file is python ./traffic_counter2.py
 
 A window generated shows the detection of vehicles and count of the vehicle keeps on increasing.
 
