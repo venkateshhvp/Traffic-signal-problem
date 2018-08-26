@@ -328,4 +328,4 @@ cap.release()
 cv2.destroyAllWindows()
 
 # saves dataframe to csv file for later analysis
-df.to_csv('traffic.csv', sep=',')
+df.to_csv('traffic2.csv', sep=',')
