@@ -27,7 +27,7 @@ ret, frame = cap.read()  # import image
 ratio = .5  # resize ratio
 image = cv2.resize(frame, (0, 0), None, ratio, ratio)  # resize image
 width2, height2, channels = image.shape
-video = cv2.VideoWriter('traffic_counter.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), fps, (height2, width2), 1)
+video = cv2.VideoWriter('traffic_counter2.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), fps, (height2, width2), 1)
 
 while True:
 
